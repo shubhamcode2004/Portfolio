@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=PT+Serif:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', serif;
+}
+
+#home,
+#project,
+#contact {
+    background: rgb(190, 190, 190);
+}
+
+.content {
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+    text-align: center;
+    text-decoration: none;
+}
+
+.content h3 {
+    text-align: center;
+}
+
+.content button {
+    padding: 15px;
+    background: lightcoral;
+    color: black;
+    font-size: 18px;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+    width: auto;
+    margin: 20px auto 0px;
+    border-radius: 30px;
+    transition: ease-in-out 0.2s;
+    border: 1px solid red;
+    font-size: 1rem;
+    /* font-family: 'Golos Text', sans-serif; */
+    font-family: 'PT Serif', serif;
+    text-decoration: none;
+}
+
+.content button:hover {
+    background: red;
+    border: 1px solid black;
+    color: white;
+    transition: ease-in-out 0.2s;
+}
+
+.main {
+    color: #272727;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card_image img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.card_content .btn {
+    color: #ffffff;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+}
+
+.card_content a {
+    text-decoration: none;
+}
+
+.card_content .btn:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+    color: white;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cards_item {
+    display: flex;
+    padding: 1rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card_content {
+    padding: 1rem;
+    background: #212529;
+}
+
+.card_title {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+.card_text {
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+}
+
+.about_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    height: 40vh;
+    align-items: center;
+}
+
+.social a {
+    padding: 0px 6px;
+}
+
+#conatct {
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.feedback {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 40px #00000010;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.form-group {
+    width: auto;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    margin-top: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    color: rgb(27, 166, 247);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease background-color;
+    border: 1px solid black;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(214, 226, 236);
+}
+
+#status {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+#status.success {
+    background-color: greenyellow;
+    animation: status 4s ease forwards;
+}
+
+#status.error {
+    background-color: red;
+    color: white;
+    animation: status 4s ease forwards;
+}
+
+form h2 {
+    color: black;
+    font-weight: 800;
+    margin-bottom: 20px;
+    padding: 4px 0px;
+    text-decoration: underline;
+}
+
+.icons i {
+    font-size: 120px;
+    height: 200px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    padding-top: 8px;
+}
+
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+@media (min-width: 40rem) {
+    .cards_item {
+        width: 50%;
+    }
+}
+
+@media (min-width: 56rem) {
+    .cards_item {
+        width: 33.3333%;
+    }
+}
