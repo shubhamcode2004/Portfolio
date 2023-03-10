@@ -44,7 +44,7 @@
 }
 
 .content button:hover {
-    background: red;
+    background: rgb(255, 81, 81);
     border: 1px solid black;
     color: white;
     transition: ease-in-out 0.2s;
