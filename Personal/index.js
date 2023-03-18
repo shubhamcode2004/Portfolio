@@ -3,11 +3,11 @@ if (confirm("WARNING !!!\nYOU ARE ENTERING IN RESTRICTED AREA\nMALWARE, VIRUS AN
         if (confirm("FINAL WARNING !!!\nMALWARE, VIRUS AND DANGER ZONE AHEAD 💀")) {
             alert("WELCOME TO DANGER ZONE 💀\nMALWARE, VIRUS AND DANGER ZONE AHEAD 💀");
         } else {
-            window.location.href = '/';
+            window.location.href = "../"
         }
     } else {
-        window.location.href = '/';
+        window.location.href = "../"
     }
 } else {
-    window.location.href = '/';
+    window.location.href = "../"
 }
