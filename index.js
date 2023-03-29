@@ -1,3 +1,5 @@
+// Auto-Type Writing
+
 var TxtType = function (el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -55,6 +57,8 @@ window.onload = function () {
     document.body.appendChild(css);
 };
 
+// Feedback Form
+
 window.addEventListener("DOMContentLoaded", function () {
     // get the form elements defined in your form HTML above
 
@@ -102,3 +106,16 @@ function ajax(method, url, data, success, error) {
     };
     xhr.send(data);
 }
+
+
+
+
+
+
+
+const navLinks = document.querySelectorAll('.nav-item')
+const menuToggle = document.getElementById('navbarSupportedContent')
+const bsCollapse = new bootstrap.Collapse(menuToggle)
+navLinks.forEach((l) => {
+    l.addEventListener('click', () => { bsCollapse.toggle() })
+})
