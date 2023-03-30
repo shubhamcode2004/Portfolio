@@ -338,7 +338,7 @@
                     <form action="https://formspree.io/f/xrgvyzlz" method="POST" id="my-form">
                         <h2>Get in Touch</h2>
                         <div class="form-group">
-                            <label for="firstName"> First Name</label>
+                            <label for="firstName">First Name *</label>
                             <input type="text" id="firstName" name="firstName" required />
                         </div>
 
@@ -348,20 +348,21 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="email">Email Id</label>
+                            <label for="email">Email Id *</label>
                             <input type="email" id="email" name="email" required />
-                            <label>We Do not share with anyone</label>
+                            <label class="privacy">We Do not share with anyone</label>
                         </div>
 
                         <div class="form-group">
-                            <label for="phone">Phone No</label>
+                            <label for="phone">Phone No *</label>
                             <input type="text" id="phone" name="phone" required />
-                            <label>We Do not share with anyone</label>
+                            <label class="privacy">We Do not share with anyone</label>
                         </div>
 
                         <div class="form-group">
-                            <label for="message">Questions / Comments</label>
-                            <textarea name="message" id="message" rows="4" minlength="40" required></textarea>
+                            <label for="message">Questions / Comments *</label>
+                            <textarea name="message" id="message" rows="5" minlength="40" wrap="hard"
+                                required></textarea>
                         </div>
 
                         <button type="submit">Submit</button>

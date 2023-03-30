@@ -195,7 +195,7 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    box-shadow: 0px 0px 40px #00000010;
+    box-shadow: 0px 0px 60px #00000010;
     background-color: white;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -226,10 +226,13 @@ form h2 {
     font-size: 18px;
     border: 2px solid rgba(128, 128, 128, 0.199);
     margin-top: 5px;
+    background-color: rgb(250, 250, 250);
 }
 
 textarea {
     resize: vertical;
+    max-height: 240px;
+    min-height: 120px;
 }
 
 button[type="submit"] {
@@ -270,6 +273,10 @@ button[type="submit"]:hover {
     background-color: red;
     color: white;
     animation: status 4s ease forwards;
+}
+
+.privacy {
+    font-size: 16px;
 }
 
 /* ********** Footer ********** */
