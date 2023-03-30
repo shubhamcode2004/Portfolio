@@ -339,4 +339,8 @@ button[type="submit"]:hover {
     form h2 {
         text-align: left;
     }
+
+    footer {
+        font-size: 8px;
+    }
 }
